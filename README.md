@@ -27,7 +27,7 @@ CSV files use UTF-8 BOM encoding to improve compatibility with spreadsheet appli
 
 - iocl_scraper_CSV.py — scraper entry point
 - Input CSV examples — state and listing URL configuration
-- A sample outlet CSV — example output data
+- `Lucknow_IOCL.csv` — existing scraper output example
 
 ## Requirements
 
@@ -68,3 +68,7 @@ The output folder receives <State>_IOCL.csv files for states with data and the c
 - The browser is visible (headless=False).
 - Listing selectors and site behavior may change over time.
 - Respect the source website's terms and applicable access policies.
+
+## Synthetic sample data
+
+[`sample_synthetic_12_records.csv`](sample_synthetic_12_records.csv) contains **12 synthetic test records** using the scraper's output schema. These records were generated for schema inspection and portfolio/demo purposes; they were not collected from the source website or API. Names and addresses are fictional, contact details and example.com links are placeholders, coordinates are illustrative, and ratings/prices are not real or current. Do not use them for real-world navigation or pricing decisions.
